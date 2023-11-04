@@ -36,7 +36,7 @@
     text-align: center;
     color: #fff;
     font-weight: 100;
-    font-size: 55px;
+    font-size: 50px;
 }
 
 .hero1 .figure img {
@@ -44,6 +44,7 @@
     height: 100px;
     margin-top: 350px;
 }
+
 
 .contentContainer {
     display: flex;
@@ -73,18 +74,36 @@
 
 .btn1 {
     padding: 5px 35px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     background-color: #01c000;
     border: 2px solid white !important;
 }
 
 .btn2 {
     padding: 5px 30px;
-    margin-left: 80px;
+    /* margin-left: 80px; */
     border: 2px solid white !important;
     background-color: #fe0000;
 }
 
-.input-group input {
-    width: 300px;
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:576px) {
+    .heroContainer .hero1 h1 {
+        text-align: center;
+        color: #fff;
+        font-weight: 100;
+        font-size: 35px;
+    }
+    .hero1 .figure img {
+        margin-top: 200px;
+    }
+    .content {
+        background-color: #c0c0c0;
+        padding: 0px 20px 10px 10px !important;
+    }
+   
 }
