@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    /* border: 2px solid red; */
+}
+
+:root {
+    --violet: #673bb7;
+    --l1--grey: #d3d3d3;
+    --l2-grey: #a9a9a9;
+    --lbg-grey: #f0f0f0;
+    --dark--grey: #f0f0f0;
+    --circle-green: #81ff81;
+    --circle-blue: #16314c;
+    --circle-brown: #512508;
+}
+
+.heroContainer .hero1 {
+    background-color: #00c1c0;
+    min-height: 100vh;
+}
+
+.heroContainer .hero2 {
+    background-color: #e0e0e0;
+    min-height: 100vh;
+}
+
+.heroContainer .hero1 h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+    font-size: 55px;
+}
+
+.hero1 .figure img {
+    width: 220px;
+    height: 100px;
+    margin-top: 350px;
+}
+
+.contentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.content label {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.content h4 {
+    font-size: 22px;
+}
+
+.content {
+    background-color: #c0c0c0;
+    padding: 0px 30px 10px 10px;
+}
+
+.btn1 {
+    padding: 5px 35px;
+    margin-left: 20px;
+    background-color: #01c000;
+    border: 2px solid white !important;
+}
+
+.btn2 {
+    padding: 5px 30px;
+    margin-left: 80px;
+    border: 2px solid white !important;
+    background-color: #fe0000;
+}
+
+.input-group input {
+    width: 300px;
+}
