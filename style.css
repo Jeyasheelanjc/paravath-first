@@ -37,14 +37,22 @@
     color: #fff;
     font-weight: 100;
     font-size: 50px;
+   
+}
+.hero1{
+    position: relative;
 }
 
 .hero1 .figure img {
     width: 220px;
     height: 100px;
-    margin-top: 350px;
+    /* margin-top: 350px; */
 }
 
+.hero1 .figure{
+    position: absolute;
+    bottom: 0;
+}
 
 .contentContainer {
     display: flex;
@@ -99,7 +107,7 @@
         font-size: 35px;
     }
     .hero1 .figure img {
-        margin-top: 200px;
+        /* margin-top: 200px; */
     }
 
 }
